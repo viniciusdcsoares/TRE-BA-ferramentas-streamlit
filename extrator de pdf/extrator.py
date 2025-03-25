@@ -9,7 +9,7 @@ import re
 
 # Configuração da página
 # Carregar o ícone da página
-icon_path = os.path.join("imagens", "tre_ba.png")
+icon_path = os.path.join("extrator de pdf", "imagens", "tre_ba.png")
 if os.path.exists(icon_path):
     icon = Image.open(icon_path)
 else:
@@ -48,7 +48,7 @@ st.markdown("""
 # Sidebar
 with st.sidebar:    
     # Logo
-    logo_path = os.path.join("imagens", "tre_ba_completo.png")
+    logo_path = os.path.join("extrator de pdf", "imagens", "tre_ba_completo.png")
     if os.path.exists(logo_path):
         st.image(logo_path, width=200)
     else:
@@ -86,7 +86,7 @@ if page == "🏠 Página Inicial":
         5. Você poderá visualizar os resultados na tela e fazer o download do arquivo Excel em "📥 Baixar Excel"
         """, unsafe_allow_html=True)
     with col1:
-        banner_path = os.path.join("imagens", "tre_ba.png")
+        banner_path = os.path.join("extrator de pdf", "imagens", "tre_ba.png")
         if os.path.exists(banner_path):
             st.image(banner_path, width=300)
         else:
