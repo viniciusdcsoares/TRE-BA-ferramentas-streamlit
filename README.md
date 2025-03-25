@@ -1,1 +1,1 @@
-# extrator-de-links-siglas-tre-ba
+# App streamlit feito com o intuito de facilitar o trabalho de servidores e estagiários do TRE-BA em documentar arquivos e documentos internos e externos. O app tem duas funcionalidades: extração de links e siglas. 
