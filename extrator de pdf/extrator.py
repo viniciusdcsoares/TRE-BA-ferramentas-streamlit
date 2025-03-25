@@ -61,7 +61,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown('<h3 class="centered-title">Menu</h3>', unsafe_allow_html=True)
     page = st.radio(
-        "Selecione uma opção:",
+        "",
         ["🏠 Página Inicial", "🔗🌍 Extrator de Links", "🔠 Extrator de Siglas (não concluído)"]
     )
     st.markdown("---")
