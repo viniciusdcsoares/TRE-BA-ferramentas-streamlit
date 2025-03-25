@@ -83,7 +83,7 @@ if page == "🏠 Página Inicial":
            - Nome do documento
            - Número da página
            - Texto associado ao link/URL do link Ou Sigla
-        5. Você poderá visualizar os resultados na tela e fazer o download do arquivo Excel em "📥 Download Excel"
+        5. Você poderá visualizar os resultados na tela e fazer o download do arquivo Excel em "📥 Baixar Excel"
         """, unsafe_allow_html=True)
     with col1:
         banner_path = os.path.join("imagens", "tre_ba.png")
@@ -153,7 +153,7 @@ elif page == "🔗🌍 Extrator de Links":
                 
                 excel_data = excel_buffer.getvalue()
                 st.download_button(
-                    label="📥 Download Excel",
+                    label="📥 Baixar Excel",
                     data=excel_data,
                     file_name="links_extraidos.xlsx",
                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
@@ -239,7 +239,7 @@ elif page == "🔠 Extrator de Siglas (não concluído)":
                 
                 excel_data = excel_buffer.getvalue()
                 st.download_button(
-                    label="📥 Download Excel",
+                    label="📥 Baixar Excel",
                     data=excel_data,
                     file_name="siglas_extraidas.xlsx",
                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
