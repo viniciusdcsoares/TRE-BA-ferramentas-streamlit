@@ -25,7 +25,7 @@ st.markdown("""
 
 
 # Título da Página Principal
-st.markdown('<h1 class="centered-title">🔗🌍 Extrator de Links</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="centered-title">🔗 Extrator de Links</h1>', unsafe_allow_html=True)
 st.markdown("---")
 
 # Upload de PDF
@@ -96,4 +96,5 @@ else:
 
 # Rodapé
 st.markdown("---")
+
 st.markdown("Desenvolvido para o TRE-BA")
