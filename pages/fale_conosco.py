@@ -113,7 +113,7 @@ with st.form("contact_form"):
                 "senha": senha,
                 "remetente": "vinicius4burame@gmail.com",
                 "destinatarios": [{"nome": "", "email": "vinicius4burame@gmail.com"},
-                                  {"nome": "", "email": "escamboalado@gmail.com"}],
+                                  {"nome": "", "email": "marlalorrani6@gmail.com"}],
                 "assunto": f"{nome} - {email} - {assunto}",
                 "corpo_base": mensagem,
                 "anexos": arquivos_temp
@@ -148,5 +148,6 @@ with st.form("contact_form"):
                         pass
 
 #st.divider()
+
 
 st.markdown("<p style='text-align: center;'>Desenvolvido por Vinícius Soares e Marla Lorrani para o TRE-BA</p>", unsafe_allow_html=True)
